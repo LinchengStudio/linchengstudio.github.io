@@ -1,0 +1,214 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>修bug日记#1 | 马男の时光胶囊~</title>
+
+<link rel="shortcut icon" href="https://mananblog.voin.ink/favicon.ico?v=1740806501326">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://mananblog.voin.ink/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            马男の时光胶囊~
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1740806501326" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    修bug日记#1
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2024-08-08 ·
+                    </time>
+                    
+                        <a href="https://mananblog.voin.ink/tag/updates/" class="post-tags">
+                            # 网站更新
+                        </a>
+                    
+                        <a href="https://mananblog.voin.ink/tag/what-happened-today/" class="post-tags">
+                            # 日常
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>怎么说呢？网站在昨天出了点小小的bug（虽然一个网站菜鸡还是用了半天才解决），今天大家请欣赏我的修bug迷惑行为吧🤣<br>
+事情是这样的：昨天有人向我要微博，然后可恶的我妈竟然说要的是博客......然后我就发现GitHub，额，它一定要我双重验证！！！</p>
+<p>好的，GitHub 2FA（即为双重验证简称）有两种选择：<br>
+1）发个消息到你的手机号，但不支持中国大陆<br>
+2）下载一个国外App，并扫码登录<br>
+这样可难住了我......<br>
+理由如下：<br>
+1）我没有国外手机号<br>
+2）我没有手机<br>
+3）我不能下载国外App</p>
+<p>这样，GitHub这条路就彻底被封了......（其实还没有，只是我后知后觉）</p>
+<p>好的，那我把源码转到Gitee上去，这样总可以了吧......<br>
+我很快就完成了这个任务，但是出来的页面却是：<br>
+Bad Request （错误的请求）<br>
+403 Forbidden Unknown Hostname （未知的域名）</p>
+<p>这可怎么办呢？今天一早，我又查了一下Gitee如何建网站，发现需要Gitee Pages服务——但当我打开Gitee Pages的时候，却发现服务已经无法使用了</p>
+<p>这可怎么办哪？于是我又转战GitHub，试图通过2FA......<br>
+结果你可能都知道了：在B站上一搜，发现方法就近在眼前啊！<br>
+原来装个插件就好了......</p>
+<p>这下，bug终于修完了，可以畅快地访问了！😁</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://mananblog.voin.ink/post/qing-yuan-village/" class="post-title gt-a-link">
+                    庆源古村
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/fixing-bugs-1/" class="leancloud_visitors" data-flag-title="修bug日记#1">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'WnN6OasSbQv0MhjYCmb2V9nb-gzGzoHsz',
+		appKey: 'WCZCyxMsPmJvdDKVF6N2Y4ZD',
+		avatar: 'hide',
+		pageSize: 10,
+		recordIp: true,
+		placeholder: '......说点什么好呢......',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">深夜emo的马男(┬┬﹏┬┬)</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Created By 马男
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://mananblog.voin.ink/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
